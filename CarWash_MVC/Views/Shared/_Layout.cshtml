@@ -1,0 +1,157 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Wash | Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/media.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/css/animate.min.css">
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link href="/src/skdslider.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/css/aos.css">
+</head>
+<body>
+    <header>
+        <!--------HEADER_START--------->
+        <div class="top_bar">
+            <!--------TOP_BAR_START--------->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9 col-md-9">
+                        <div class="info_icons">
+                            <ul>
+                                <li><a href="tel:647-703-8515"><span class="fa fa-phone"></span> 647-703-8515</a></li>
+                                <li><a href="mailto:info@nanakcarwash.com"><span class="fa fa-envelope-o"></span>info@nanakcarwash.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="hd_k">
+                            <ul>
+                                <li><a href="#"><img src="/images/fb.png" /></a></li>
+                                <li><a href="#"><img src="/images/insta.png" /></a></li>
+                                <li><a href="#"><img src="/images/google.png" /></a></li>
+                                <li><a href="#"><img src="/images/lin.png" /></a></li>
+                                <li><a href="#"><img src="/images/go.png" /></a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------TOP_BR_END--------->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../Home/index/"><img src="/images/logo.png" class="logo"></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav  pull-right">
+                        <li class="active "><a class="index/" href="/Home/index/">Home</a></li>
+                        <li class="about/"><a class="about/" href="/Home/about/">About Us</a></li>
+
+                        <li class="Car_Wash_packages"><a class="Car_Wash_packages" href="/Home/Car_Wash_packages">Car Wash Packages</a></li>
+                        <li class="details/"><a class="details/" href="/home/details/">Detailing</a></li>
+                        <li class="hot_sale/"><a class="hot_sale/" href="/home/hot_sale/">Hot Sale</a></li>
+                        <li class="contact/"><a class="contact/" href="/home/contact/">Contact US</a></li>
+                        <li class="faqs/"><a class="faqs/" href="/home/faqs/">Faqs</a></li>
+                        <a href="/home/hiring/" class="btn btn-primery">Now Hiring</a>
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+  @RenderBody()
+    <div class="mrg_top">
+        <footer>
+            <div class="container">
+            </div>
+            <div class="col-md-12">
+                <div class="bottom_text">
+                    <p>Copyright 2019 Nanak Car Wash - Brampton  Etobicoke & North York Canada </br><span>Site maintained by:<a href="http://only4agents.com/"> Only4Agents</a><span></p>
+                </div>
+            </div>
+   
+    </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="/js/aos.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/src/skdslider.min.js"></script>
+
+
+</body>
+</html>
+<script>
+   AOS.init()
+</script>
+<script>
+            $(function () {
+                debugger;
+                var activeurl = window.location.pathname;
+                var myString = activeurl.substr(activeurl.indexOf("/") + 6)
+                if (myString != "") {
+                    var latest = $('a[class="' + myString + '"]');
+                    var prev = $('.nav li').removeClass('active');
+                    latest.parent('li').addClass('active');
+                }
+                else {
+                    $('a[class="Index"]').parent('li').addClass('active');
+                }
+
+            });
+</script>
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('#demo1').skdslider({
+          slideSelector: '.slide',
+          delay:5000,
+          animationSpeed:2000,
+          showNextPrev:true,
+          showPlayButton:true,
+          autoSlide:true,
+          animationType:'fading'
+        });
+
+        jQuery('#demo2').skdslider({
+          slideSelector: '.slide',
+          delay:5000,
+          animationSpeed: 1000,
+          showNextPrev:true,
+          showPlayButton:false,
+          autoSlide:true,
+          animationType:'sliding'
+        });
+    });
+</script>
+
+        
+       

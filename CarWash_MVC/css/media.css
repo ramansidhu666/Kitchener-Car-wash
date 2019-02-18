@@ -1,0 +1,1411 @@
+
+@media (max-width: 1360px) {
+
+.skdslider .slide-desc{
+		
+left:0px !important;
+bottom: 55% !important;
+padding: 0px 34px !important;}
+
+}
+
+@media (max-width: 768px) {
+	.navbar-default .navbar-nav > li > a{
+		
+		font-size: 10px;
+	}
+
+.hd_k img{
+	
+	margin-right: 1px;
+}
+.skdslider .slide-desc > p{
+	
+	
+
+font-size: 25px;
+
+line-height: 20px;
+
+margin-top: 5px;
+
+line-height: 43px;
+	
+	
+}
+.contact_text h2{
+	
+	font-size:18px;
+}
+.bottom_text p{
+	
+	font-size:13px;
+}
+
+.price_box5 img {
+
+    width: 100%;
+
+}
+
+.contact_link {
+
+    background-image: url(../images/mein_img.jpg);
+    width: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    padding: 15px 0px;
+    background-size: cover;
+    margin-top: 0px;
+
+}
+.skdslider .slide-desc > h2 {
+
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 52px;
+    text-transform: uppercase;
+
+}
+.super_text h1{
+	
+	font-size: 28px;
+text-align: center;
+font-weight: bold;
+width: 100%;
+color: #fff;
+font-family: 'Poppins', sans-serif;
+float: left;
+margin-bottom: 32px;
+line-height: 45px;
+}
+.super_clean {
+    margin-top: 41px;
+    padding: 0px;
+}
+.mein_text h2 {
+    margin-top: 15px !important;
+    font-size: 32px!important;
+}
+	.mein_text h1 {
+		font-size: 23px;
+		line-height: 46px;
+		margin-top: 4px;
+	}
+	.mein_text h2 {
+		line-height: 55px;
+		font-size: 35px;
+	}
+	.set {
+		position: absolute;
+
+
+
+width: 20%;
+
+left: 605px;
+
+top: -19px;
+	}
+	.Exterior h1{
+		
+		    font-size: 31px;
+    font-weight: bold;
+    width: 100%;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-bottom: 4px;
+    margin-top: 28px;
+
+	}
+	
+	.details h1{
+		font-size:30px;
+		margin-top:26px;
+		
+	}
+	.Detailing h3{
+		
+		margin-top:24px;
+		
+	}
+	.skdslider .slide-desc span{
+	
+	background:none
+	
+}
+	.skdslider .slide-desc{
+		
+		left:0px !important;
+		bottom: 23% !important;
+		position: absolute;
+	}
+	.text h3
+	{
+	
+	width: 31%;
+
+margin: auto;
+margin-top:10px;
+	}
+	
+	.wash_text img {
+		width: 100%
+	}
+	.wash_text2 img {
+		width: 100%
+	}
+	.price_box2 img {
+		top: 223px;
+
+right: 0px;
+
+	}
+	.price_box1 h3 {
+		font-size: 23px;
+	}
+	.price_box1 p {
+		font-size: 14px;
+	}
+	.price_box2 p {
+		font-size: 14px;
+	}
+	.price_box1 img {
+		bottom: 0px;
+		top: 213px;
+
+right: 0px;
+	}
+	.price_box2 h2 {
+		font-size: 19px;
+	}
+	.price_box1 h2 {
+		font-size: 19px;
+	}
+	.super_clean {
+		margin-top: 74px;
+	}
+	.price_box2 h3 {
+		font-size: 23px;
+	}
+	.price_box3 h3 {
+		font-size: 28px;
+	}
+	.price_box4 h2 {
+		font-size: 28px;
+	}
+	.mein_text h2 span img {
+		width: 25%;
+	}
+	.price_box1 h4 {
+		font-size: 18px;
+		padding: 5px;
+	}
+	.price_box2 h4 {
+		font-size: 18px;
+		padding: 5px;
+	}
+	.slide-text>h1 {
+		font-size: 21px !important;
+		line-height: 31px !important;
+	}
+	.slide-text>p {
+		font-size: 10px;
+		margin-top: -23px;
+		line-height: 17px;
+	}
+	.price_box2 {
+		margin-top: 98px;
+	}
+	.logo {
+		text-align: center;
+	}
+	.price_box5 h2
+	{
+	font-size: 35px;
+		margin-top: 32px !important;
+}
+	.price_box6 h2{
+		font-size: 35px;
+		margin-top: 32px !important;
+	
+			
+		
+	}
+}
+
+@media (max-width: 480px) {
+	
+	.hd_k img{
+		
+		margin-right:0px;
+	}
+	.navbar-default .navbar-nav > li > a {
+
+    font-size: 14px;
+	}
+	.info_icons a {
+
+    color: #222;
+    margin-right: 40px;
+
+}
+.logo{
+		
+		width: 37%;
+		position:absolute;
+		padding-left:15px;
+		
+	}
+	.price_box1 img {
+		bottom: 0px;
+		top: 260px;
+		right: 0px;
+        width: 100%;
+	}
+	.price_box2 img {
+		bottom: 0px;
+		top: 260px;
+		right: 0px;
+        width:100%;
+	}
+	.super_clean {
+		margin-top: 153px;
+	}
+	.price_box2 {
+		margin-top: 140px;
+	}
+	.set img {
+		position: absolute;
+		top: 119px;
+		right: 142px;
+		width: 36%;
+	}
+.text h3 {
+		width: 50%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+.skdslider .slide-desc > p{
+	font-size: 13px !important;
+	line-height:30px !important;
+}
+
+.skdslider .slide-desc span{
+	
+	background:none
+	
+}
+.set{
+	position: absolute;
+
+width: 20%;
+
+left: 340px;
+
+top: 50px;
+	
+}
+.skdslider .slide-desc > h2{
+	font-size:14px !important;
+		line-height:23px !important;
+
+	
+}
+.mein_text h2 span img{
+	width: 50%;
+}
+.wash_text{
+	margin-top:26px;
+}
+
+.wash_text2{
+	
+		margin-top:26px;
+
+}
+
+.details_text2 h3{
+	font-size:19px;
+}
+.Detailing h3{
+	font-size:20px;
+	float:left;
+}
+
+.Detailing li{
+	
+	font-size: 13px;
+	padding: 7px 0px;
+	overflow:hidden;
+	width: 100%;
+}
+
+
+.Detailing2 h3{
+	
+	
+	font-size:20px;
+
+}
+
+.Detailing2 li
+{
+font-size: 13px;
+	padding: 7px 0px;
+	overflow:hidden;
+}
+
+.info_icons li{
+	float: left;
+    margin: 2px;
+    font-weight: bold;
+    padding-top: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    font-family: 'Hind', sans-serif;
+
+
+}
+.info_icons a {
+
+    color: #222;
+    margin-right: 169px;
+}
+.bodywash h2{
+	
+	margin-top:0px;
+	
+}
+
+.bodywash img{
+	
+	width:100%;
+}
+.romana_contact_form2 .romana_submit_btn input{
+	
+	width:100%;
+}
+.romana_section_title h2{
+	
+	font-size: 26px;
+
+
+
+margin-top: 6px;
+
+margin-bottom: 27px;
+}
+.wash_text2{
+	float:left;
+	width:100%;
+
+}
+.wash_text p{
+	
+	color: #000;
+
+font-size: 18px;
+
+line-height: 40px;
+
+text-align: center;
+
+font-family: 'Poppins', sans-serif;
+
+line-height: 32px;
+	
+}
+
+
+.wash_text img{
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	
+}
+
+.wash_text2 img{
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	
+}
+
+
+.wash_text2 p{
+	color: #000;
+
+font-size: 18px;
+
+line-height: 40px;
+
+text-align: center;
+
+font-family: 'Poppins', sans-serif;
+
+line-height: 32px;
+}
+
+
+.wash_text {
+
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+    border-bottom: 3px solid;
+
+
+
+}
+}
+
+
+@media (max-width: 414px) {
+	.info_icons{
+		
+		
+		width: 100%;
+    float: left;
+    margin-top: 13px 0;
+
+	}
+		.info_icons li{
+			
+			margin:0px;
+			
+		}
+	.hd_k{	
+	width: 100%;
+
+float: left;
+
+
+margin-top: 11px;
+
+	}
+	
+	
+	
+		.hd_k img{
+			
+			margin-top:0px;
+		}
+	.navbar-default .navbar-nav > li > a {
+
+    font-size: 14px;
+	}
+	.info_icons a {
+
+    color: #222;
+    margin-right: 17px;
+
+}
+	.price_box1 img {
+		bottom: 0px;
+		top: 259px;
+		right: 0px;
+        width:100%;
+	}
+	.price_box2 img {
+		bottom: 0px;
+		top: 254px;
+		right: 0px;
+        width:100%;
+	}
+	.mein_text h2 {
+		margin-top: 58px;
+	}
+	.text h3 {
+		margin: auto;
+		width: 59%;
+		margin-top: 20px;
+	}
+	.super_clean {
+		margin-top: 105px;
+	}
+
+.set {
+
+    position: absolute;
+    width: 47%;
+    left: 113px;
+    top: 95px;
+
+}
+
+.skdslider .slide-desc > p {
+
+    font-size: 8px !important;
+    line-height: 19px !important;
+
+}
+.skdslider .slide-desc span{
+	
+	background:none
+	
+}
+.mein_text h2 span img{
+	width: 50%;
+}
+
+.wash_text2{
+	float:left;
+	width:100%;
+
+}
+.wash_text p{
+	
+	color: #000;
+
+font-size: 18px;
+
+line-height: 40px;
+
+text-align: center;
+
+font-family: 'Poppins', sans-serif;
+
+line-height: 32px;
+	
+}
+
+.logo{
+		
+		width: 37%;
+		position:absolute;
+		padding-left:15px;
+		
+	}
+.wash_text img{
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	
+}
+
+.wash_text2 img{
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	
+}
+
+
+.wash_text2 p{
+	color: #000;
+
+font-size: 18px;
+
+line-height: 40px;
+
+text-align: center;
+
+font-family: 'Poppins', sans-serif;
+
+line-height: 32px;
+}
+
+
+.wash_text {
+
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+    border-bottom: 3px solid;
+
+}
+
+.details_text2 h3{
+	font-size:19px;
+}
+.Detailing h3{
+	font-size:20px;
+	float:left;
+}
+
+.Detailing li{
+	
+	font-size: 13px;
+	padding: 7px 0px;
+	overflow:hidden;
+	width: 100%;
+}
+
+
+.Detailing2 h3{
+	
+	
+	font-size:20px;
+
+}
+
+.Detailing2 li
+{
+font-size: 13px;
+	padding: 7px 0px;
+	overflow:hidden;
+}
+
+
+.bodywash h2{
+	
+	margin-top:0px;
+	
+}
+
+.bodywash img{
+	
+	width:100%;
+}
+.romana_contact_form2 .romana_submit_btn input{
+	
+	width:100%;
+}
+.romana_section_title h2{
+	
+	font-size: 26px;
+
+
+
+margin-top: 6px;
+
+margin-bottom: 27px;
+
+}
+.skdslider .slide-desc > h2
+	{
+	font-size: 15px !important;
+	line-height:24px !important;}
+}
+
+
+
+@media (max-width: 375px) {
+	.navbar-default .navbar-nav > li > a {
+
+    font-size: 14px;
+	}
+	.info_icons a {
+
+    color: #222;
+
+}
+	.price_box1 img {
+		bottom: 0px ;
+		top: 260px ;
+		right: 0px;
+        width: 100%;
+	}
+	.price_box2 img {
+		bottom: 0px;
+		top: 286px;
+		right: 0px;
+        width:100%;
+	}
+	.text h3 {
+		margin: none;
+		margin-top: none !important;
+		width: 70% !important;
+	}
+	
+	.skdslider .slide-desc > h2
+	{
+	font-size: 15px !important;
+	line-height:24px !important;}
+		.skdslider .slide-desc > p{
+			
+			font-size: 9px!important;
+
+line-height: 16px!important;
+	}
+	.logo{
+		
+		width: 37%;
+		position:absolute;
+		padding-left:15px;
+		
+	}
+	
+	.set {
+
+    position: absolute;
+    top: 129px;
+    right: 92px;
+    width: 50%;
+    left: 88px;
+	}
+	.skdslider .slide-desc span{
+	
+	background:none
+	
+}
+.mein_text h2 span img{
+	width: 50%;
+	
+	
+}
+.wash_text h2{
+	
+	font-size:25px;
+	
+	
+}
+.wash_text2 h2{
+	
+	font-size:25px;
+	
+}
+.wash_text2{
+	float:left;
+	width:100%;
+
+}
+.wash_text p{
+	
+	color: #000;
+
+font-size: 18px;
+
+line-height: 40px;
+
+text-align: center;
+
+font-family: 'Poppins', sans-serif;
+
+line-height: 32px;
+	
+}
+
+
+.wash_text img{
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	
+}
+
+.wash_text2 img{
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	
+}
+
+
+.wash_text2 p{
+	color: #000;
+
+font-size: 18px;
+
+line-height: 40px;
+
+text-align: center;
+
+font-family: 'Poppins', sans-serif;
+
+line-height: 32px;
+}
+
+
+.wash_text {
+
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+    border-bottom: 3px solid;
+
+}
+
+.details_text2 h3{
+	font-size:19px;
+}
+.Detailing h3{
+	font-size:20px;
+	float:left;
+}
+
+.Detailing li{
+	
+	font-size: 13px;
+	padding: 7px 0px;
+	overflow:hidden;
+	width: 100%;
+}
+
+
+.Detailing2 h3{
+	
+	
+	font-size:20px;
+
+}
+
+.Detailing2 li
+{
+font-size: 13px;
+	padding: 7px 0px;
+	overflow:hidden;
+}
+
+
+.bodywash h2{
+	
+	margin-top:0px;
+	
+}
+
+.bodywash img{
+	
+	width:100%;
+}
+.romana_contact_form2 .romana_submit_btn input{
+	
+	width:100%;
+}
+.romana_section_title h2{
+	
+	font-size: 26px;
+
+
+
+margin-top: 6px;
+
+margin-bottom: 27px;
+
+}
+}
+
+
+@media (max-width: 360px) {
+	.info_icons{
+		
+		
+		width: 100%;
+    float: left;
+    margin-top: 13px 0;
+
+	}
+		.info_icons li{
+			
+			margin:0px;
+			
+		}
+	.hd_k{	
+	width: 100%;
+
+float: left;
+
+
+margin-top: 11px;
+
+	}
+	
+	
+	
+		.hd_k img{
+			
+			margin-top:0px;
+		}
+	.navbar-default .navbar-nav > li > a {
+
+    font-size: 14px;
+	}
+	.logo{
+		
+		width: 37%;
+		position:absolute;
+		padding-left:15px;
+		
+	}
+	
+	.info_icons a {
+
+    color: #222;
+    margin-right: 105px !important;
+
+}
+	.text h3 {
+		margin: none;
+		margin-top: none !important;
+		width: 68%!important;
+	}
+	.skdslider .slide-desc > p{
+		font-size: 9px!important;
+
+line-height: 13px!important;
+	}
+		
+		
+		.skdslider .slide-desc > h2{
+			
+			font-size:13px!important;
+			line-height:20px!important;
+		}
+		.mein_text h2 {
+    margin-top: 7px;
+	    font-size: 32px;
+
+}
+.super_text h1{
+	
+	font-size: 28px;
+text-align: center;
+font-weight: bold;
+width: 100%;
+color: #fff;
+font-family: 'Poppins', sans-serif;
+float: left;
+margin-bottom: 32px;
+line-height: 45px;
+}
+.super_clean {
+    margin-top: 41px;
+    padding: 0px;
+}
+		.set {
+
+    position: absolute;
+    top: 129px;
+    right: 92px;
+    width: 50%;
+    left: 79px;
+
+}
+.mein_text h2 span img{
+	width: 50%;
+	
+	
+}
+.wash_text h2{
+	
+	font-size:25px;
+	
+	
+}
+.wash_text2 h2{
+	
+	font-size:25px;
+	
+}
+
+.wash_text2{
+	float:left;
+	width:100%;
+
+}
+.wash_text p{
+	
+	color: #000;
+
+font-size: 18px;
+
+line-height: 40px;
+
+text-align: center;
+
+font-family: 'Poppins', sans-serif;
+
+line-height: 32px;
+	
+}
+
+
+.wash_text img{
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	
+}
+
+.wash_text2 img{
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	
+}
+
+
+.wash_text2 p{
+	color: #000;
+
+font-size: 18px;
+
+line-height: 40px;
+
+text-align: center;
+
+font-family: 'Poppins', sans-serif;
+
+line-height: 32px;
+}
+
+
+.wash_text {
+
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+    border-bottom: 3px solid;
+
+}
+
+.details_text2 h3{
+	font-size:19px;
+}
+.Detailing h3{
+	font-size:20px;
+	float:left;
+}
+
+.Detailing li{
+	
+	font-size: 13px;
+	padding: 7px 0px;
+	overflow:hidden;
+	width: 100%;
+}
+
+
+.Detailing2 h3{
+	
+	
+	font-size:20px;
+
+}
+
+.Detailing2 li
+{
+font-size: 13px;
+	padding: 7px 0px;
+	overflow:hidden;
+}
+
+
+.bodywash h2{
+	
+	margin-top:0px;
+	
+}
+
+.bodywash img{
+	
+	width:100%;
+}
+.romana_contact_form2 .romana_submit_btn input{
+	
+	width:100%;
+}
+.romana_section_title h2{
+	
+	font-size: 26px;
+
+
+
+margin-top: 6px;
+
+margin-bottom: 27px;
+
+}
+}
+
+
+@media (max-width: 320px) {
+	
+	
+	.info_icons{
+		
+		
+		width: 100%;
+    float: left;
+    margin-top: 13px 0;
+
+	}
+		.info_icons li{
+			
+			margin:0px;
+			
+		}
+	.hd_k{	
+	width: 100%;
+
+float: left;
+
+
+margin-top: 11px;
+
+	}
+	
+	
+	
+		.hd_k img{
+			
+			margin-top:0px;
+		}
+
+	.navbar-default .navbar-nav > li > a {
+
+    font-size: 14px;
+	}
+	.navbar-brand{
+		
+		padding:0px;
+	}
+	
+	.logo{
+		
+		width: 46%;
+		position:absolute;
+		padding-left:15px;
+		
+	}
+	.info_icons a {
+
+    color: #222;
+    margin-right: 60px;
+
+}
+.price_box1 img {
+    bottom: 0px;
+    top: 300px;
+    right: 0px;
+    width: 100%;
+}
+	.price_box2 img {
+    bottom: 0px;
+    top: 313px;
+    right: 0px;
+    width: 100%;
+}
+	.text h3 {
+		margin-top: none !important;
+		width: 100%!important;
+	}
+.skdslider .slide-desc > p{
+	font-size: 7px!important;
+	line-height:12px!important;
+}
+.skdslider .slide-desc > h2{
+	
+	font-size:12px!important;
+	line-height:20px !important;
+	margin-bottom: 67px;
+}
+.set{
+position: absolute;
+
+top: 101px;
+
+right: 105px;
+
+width: 50%;
+
+left: 70px;
+}
+.skdslider .slide-desc span{
+	
+	background:none
+	
+}
+.text h3{
+	
+	
+	margin-top: 15px; 
+	
+}
+.mein_text h2{
+	margin-top: 4px;
+	
+}
+.mein_text h2 span img{
+	width: 50%;
+	
+	
+}
+.price_box1 p {
+
+    font-size: 17px;
+    line-height: 32px;
+    margin-bottom:74px;
+
+}
+.price_box2 p {
+
+    font-size: 17px;
+    line-height: 32px;
+    margin-bottom:74px;
+}
+.price_box1 {
+
+    margin-top: 6px;
+
+}
+.price_box2 {
+
+    margin-top: 84px;
+
+}
+.price_box2 h2{
+	margin-top: 23px;
+}
+
+
+
+.wash_text h2{
+	
+	font-size:25px;
+	
+	
+}
+.wash_text2 h2{
+	
+	font-size:25px;
+	
+}
+
+
+.details_text2 h3{
+	font-size:19px;
+}
+.Detailing h3{
+	font-size:20px;
+	float:left;
+}
+
+.Detailing li{
+	
+	font-size: 13px;
+	padding: 7px 0px;
+	overflow:hidden;
+	width: 100%;
+}
+
+
+.Detailing2 h3{
+	
+	
+	font-size:20px;
+
+}
+
+.Detailing2 li
+{
+font-size: 13px;
+	padding: 7px 0px;
+	overflow:hidden;
+}
+
+
+.bodywash h2{
+	
+	margin-top:0px;
+	
+}
+
+.bodywash img{
+	
+	width:100%;
+}
+.romana_contact_form2 .romana_submit_btn input{
+	
+	width:100%;
+}
+.romana_section_title h2{
+	
+	font-size: 26px;
+
+
+
+margin-top: 6px;
+
+margin-bottom: 27px;
+
+
+}
+
+.wash_text2{
+	float:left;
+	width:100%;
+
+}
+.wash_text p{
+	
+	color: #000;
+
+font-size: 18px;
+
+line-height: 40px;
+
+text-align: center;
+
+font-family: 'Poppins', sans-serif;
+
+line-height: 32px;
+	
+}
+
+
+.wash_text img{
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	
+}
+
+.wash_text2 img{
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	
+}
+
+
+.wash_text2 p{
+	color: #000;
+
+font-size: 18px;
+
+line-height: 40px;
+
+text-align: center;
+
+font-family: 'Poppins', sans-serif;
+
+line-height: 32px;
+}
+.super_clean{
+	
+	    margin-top: 39px;
+    padding: 0px;
+
+}
+
+.wash_text {
+
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+    border-bottom: 3px solid;
+
+}
+.super_text h1{
+	
+	
+	
+	    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-bottom: 8px;
+    line-height: 42px;
+}

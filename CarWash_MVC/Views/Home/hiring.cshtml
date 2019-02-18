@@ -1,0 +1,187 @@
+﻿
+@{
+    ViewBag.Title = "hiring";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="heading">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading-text">
+                    <h1>Hiring</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="hiring">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="hiring_text">
+                    <p>At Nanak Car Wash we are hiring all the times for customer support vehicles cleaning and washing jobs. We are looking for energetic sincere and forward looking people. We offer the best pay packages. Please send your resume below online</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="contact_sec">
+    <div class="container">
+        <div class="row ">
+            <div class="col-sm-4">
+                <div class="romana_contact_left romana_section_title">
+                    <h2>Contact Information</h2>
+                    <div class="single_contact">
+                        <h3>Email: </h3>
+                        <p><a href="mailto:info@nanakcarwash.com">info@nanakcarwash.com</p>
+                    </div>
+
+                    <div class="single_contact">
+                        <h3>Phone Number</h3>
+                        <p><a href="tel:647-703-8515">647-703-8515</a></p>
+                    </div>
+
+                    <div class="single_contact">
+                        <h3>Exterior car wash</h3>
+                        <p>
+                            Monday to Sat 8am to 7pm<br />
+                            Sunday 8am to 6pm
+                        </p>
+                        <div class="single_contact">
+                            <h3>HOURS OF OPERATION</h3>
+                            <p>Car Detailing: 9am to 6pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- column End -->
+            <div class="col-sm-8">
+                <div class="romana_contact_right">
+
+                    <div class="romana_contact_form2 romana_section_title">
+                        <h2>Get In Touch</h2>
+                        <p class="form-messages"></p>
+                        <form action="#" id="ajax-contact" method="POST">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <input type="text" name="username" id="first_name" class="form-control" placeholder="First Name:" tabindex="1">
+                                    <label id="message1" class="error"></label>
+                                    @*<input type="text" name="email" id="email" placeholder="Email">*@
+                                    <input type="email" name="email" id="e-mail_id" class="form-control" placeholder="E-Mail Address:" tabindex="2">
+                                    <label id="message2" class="error"></label>
+                                </div>
+                                <div class="col-sm-12">
+                                    <input type="text" placeholder="Phone" class="form-control" name="phone" id="phone" tabindex="3">
+                                    <label id="message3" class="error"></label>
+                                </div>
+                                <div class="col-sm-12">
+                                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject:" tabindex="1">
+                                    <label id="message5" class="error"></label>
+                                </div>
+                                <div class="col-sm-12">
+                                    <textarea name="message" class="form-control" id="exampleTextarea" placeholder="Message:" rows="3"></textarea>
+                                    <label id="message4" class="error"></label> <div class="romana_submit_btn">
+                                        @*<input type="button" value="Submit" class="common_shadow_hover">*@
+                                        <button id="btnSave common_shadow_hover" type="button" class="common_shadow_hover">Send</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- column End -->
+        </div>
+        <!-- row End -->
+    </div>
+    <!-- container End -->
+</div>
+
+
+
+<script src="http://code.jquery.com/jquery.js"></script>
+
+<script>
+
+    $(document).ready(function () {
+
+
+        $('#btnSave').click(function () {
+            debugger;
+
+            if ($("input[name=username]").val() == "") {
+                $('#message1').html('This field is required');
+                $('#message2').html('');
+                $('#message3').html('');
+                $('#message4').html('');
+                $('#message5').html('');
+            }
+
+            else if ($("input[name=email]").val() == "") {
+                $('#message2').html('This field is required');
+                $('#message1').html('');
+                $('#message3').html('');
+                $('#message4').html('');
+                $('#message5').html('');
+            }
+            else if ($("input[name=phone]").val() == "") {
+                $('#message3').html('This field is required');
+                $('#message1').html('');
+                $('#message2').html('');
+                $('#message4').html('');
+                $('#message5').html('');
+
+            }
+            else if ($("input[name=subject]").val() == "") {
+                $('#message5').html('This field is required');
+                $('#message1').html('');
+                $('#message3').html('');
+                $('#message2').html('');
+                $('#message4').html('');
+            }
+            else if ($("textarea[name=message]").val() == "") {
+                $('#message4').html('This field is required');
+                $('#message1').html('');
+                $('#message3').html('');
+                $('#message2').html('');
+                $('#message5').html('');
+            }
+
+            if ($("input[name=username]").val() != "" && $("input[name=email]").val() != "" && $("input[name=subject]").val() != "" && $("textarea[name=message]").val() != "" && $("input[name=phone]").val()!="") {
+
+                $.ajax({
+
+                    url: "/Home/Contact",
+                    data: { 'username': $("input[name=username]").val(), 'subject': $("input[name=subject]").val(), 'phn': $("input[name=phone]").val(), 'Email': $("input[name=email]").val(), 'message': $("textarea[name=message]").val() },
+                    type: "POST",
+                    dataType: 'json',
+                    success: function (data) {
+                        debugger;
+                        alert('Mail has been sent to admin. You will be contacted shortly.');
+                        $('#message1').html('');
+                        $('#message3').html('');
+                        $('#message2').html('');
+                        $('#message4').html('');
+                        $('#message5').html('');
+                        $("input[name=username]").val('');
+                        $("input[name=email]").val('');
+                        $("input[name=subject]").val('');
+                        $("input[name=phone]").val('');
+                        $("textarea[name=message]").val('');
+                        return false;
+                    },
+                    error: function (data) {
+                        debugger;
+                        alert("Dynamic content load failed.");
+                    }
+                });
+            }
+        });
+    });
+</script>
